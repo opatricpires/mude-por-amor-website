@@ -4,8 +4,8 @@ import React from "react";
 
 const components = () => {
   return (
-    <div className="bg-white h-screen flex">
-      <div className="w-2/4 h-screen bg-slate-900 py-6">
+    <div className="bg-white h-auto flex flex-col-reverse md:flex-row md:h-screen">
+      <div className="w-full md:w-2/4 h-screen bg-slate-900 py-6">
         <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl text-center mb-20">
           COMO AJUDAR?
         </p>
@@ -45,7 +45,7 @@ const components = () => {
           </div>
         </div>
       </div>
-      <div className="w-2/4 h-screen">
+      <div className="w-full md:w-2/4 h-screen">
         <div className="relative h-full w-full">
           <Image
             src={HowToHelpImage}
