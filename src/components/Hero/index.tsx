@@ -13,7 +13,7 @@ const Hero = () => {
               Inicio
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-              A Ong
+              A ong
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
               Sobre nós
